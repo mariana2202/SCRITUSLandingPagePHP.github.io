@@ -1,0 +1,112 @@
+*{  margin:0; 
+    padding: 0;
+}
+
+/* TIPOGRAFÍA */
+@font-face{
+    font-family: tw-cent;
+    src: url(../fonts/tw-cen-mt-condensed-3.ttf);
+}
+
+@font-face{
+    font-family: segoe;
+    src: url(../fonts/segoe-script-bold.ttf);
+}
+
+.segoe{
+    font-family: segoe;
+}
+
+h1, h2, h3, h4, h5, h6, p{
+    font-family: tw-cent;
+}
+
+.parrafo{
+    font-size: 1.5em;
+}
+
+.align{
+    text-align: justify;
+}
+
+.row{
+    margin-left: 0;
+    margin-right: 0;
+}
+
+/* COLORES */
+.bg-azul{
+    background-color: #2B3381;
+}
+
+.bg-azul-osc{
+    background-color: #0A1151;
+}
+
+.bg-transparent{
+    background-color: #F8F9FA;
+}
+
+.text-azul-osc{
+    color: #0A1151;
+}
+
+.text-orange{
+    color: #FB5500;
+}
+
+/* MENÚ */
+#fondo-menu{
+    background-color: #F8F9FA;
+    height: 125px;
+    font-family: tw-cent;
+}
+
+#main_nav{
+    font-family: tw-cent;
+}
+
+a{
+    color: #2B3381;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+a:hover {
+    color: #0A1151;
+    background-color:   #FB540063;
+    text-decoration: underline;
+}
+
+.navbar-toggler{
+    border: 1px solid transparent;
+}
+
+.navbar-brand{
+    width: 300px;
+}
+
+.sticky-top{
+    height: 125px;
+    font-size: 1.7em;
+}
+
+#ortografia{
+    background-image: url(../img/contenido.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+p.success,
+p.error {
+    color: white;
+    font-family: lato;
+    background: yellowgreen;
+    /* display: inline-block; */
+    padding: 2px 10px;
+}
+
+p.error {
+    background: orangered;
+}
